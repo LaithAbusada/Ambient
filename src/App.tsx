@@ -134,10 +134,10 @@ const App: React.FC = () => {
   return (
     <div className="flex items-center align-center justify-center min-h-screen">
       <div
-        className="relative flex items-center justify-center"
+        className="relative flex items-center justify-center "
         style={{
-          width: "70%",
-          height: "50%",
+          width: "880px",
+          height: "495px",
           position: "relative",
         }}
       >
@@ -148,7 +148,7 @@ const App: React.FC = () => {
             filter: "blur(90px)",
             transition: "background 0.1s ease, filter 0.1s ease",
             zIndex: 1,
-            opacity: 0.8,
+            opacity: 0.7,
           }}
         ></div>
 
@@ -159,7 +159,10 @@ const App: React.FC = () => {
             controls
             autoPlay
             loop
-            className="relative max-w-full h-auto rounded-md shadow-lg"
+            className="relative rounded-md shadow-lg w-[880px] h-[495px]"
+            style={{
+              objectFit: "cover",
+            }}
           >
             <source src="/videos/sample2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
