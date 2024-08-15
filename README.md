@@ -1,47 +1,53 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ambient Video Player with Dynamic Gradient Background
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+Create a **React application** that provides an immersive video-watching experience by dynamically generating an ambient light effect around the video player. The gradient background changes according to the colors in 4 quadrants of the video, enhancing the visual experience.
 
-### `npm start`
+## Core Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Dynamic Gradient Background**: Extract colors from the video in real-time to create a gradient that simulates ambient light around the video player.
+- **Smooth Color Transition**: Implement smooth transitions between gradient colors as the video plays.
+- **Responsive Design**: Ensure the video player and gradient effect are fully responsive and look great on all devices.
+- **Custom Video Integration**: Easily replace the sample video with any MP4 file to see the effect in action with your content.
+- **Canvas API Usage**: Utilize the Canvas API to process video frames and extract color data for the gradient.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LaithAbusada/Ambient.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Ambient
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+-  Watch the current video or Replace the default video file in the `public/videos/` directory with your video.
+- The application will automatically create a dynamic ambient gradient based on the colors in the video.
+- Watch the video while observing the gradient background change in real-time, creating a seamless ambient light effect.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1792" alt="image" src="https://github.com/user-attachments/assets/fca9f781-b50e-46f2-8f15-678272e9a6ff">
+<img width="1792" alt="image" src="https://github.com/user-attachments/assets/7fa87feb-529a-430e-a8f3-59b4d8c02d04">
+<img width="1779" alt="image" src="https://github.com/user-attachments/assets/30ddc7fd-77b3-4649-b743-b9b2f0366d2f">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*Sample video with dynamic gradient background*
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# Ambient-Lights
+This project is licensed under the **MIT License**.
